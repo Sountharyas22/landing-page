@@ -1,0 +1,63 @@
+.hero-section {
+    text-align: center;
+    padding: 60px;
+    background-color: rgb(227, 202, 172);
+}
+.profile-area{
+    padding: 80px 0;
+    background-color: rgb(227, 202, 172);
+}
+.card{
+    box-shadow: 0 0 30px white;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.img1 img{
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+.img2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid rgb(97, 194, 132);
+    margin-top: 80px;
+}
+.card:hover .img2 img{
+    border-color: rgb(133, 175, 65);
+    transition: .7s;
+}
+.main-text{
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.main-text  h1 h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+.main-text p{
+    font-size: 16px;
+    padding: 0 35px;
+}
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.socials i{
+    font-size: 20px;
+    color: rgb(76, 27, 209);
+    padding: 0 10px;
+}
+.footer{
+    text-align: center;
+}
